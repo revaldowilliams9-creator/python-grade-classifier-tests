@@ -27,6 +27,10 @@ class TestGradeClassifier(unittest.TestCase):
     def test_invalid_type_raises_type_error(self):
         with self.assertRaises(TypeError):
             classify_grade("80")
+        with self.assertRaises(TypeError):
+            classify_grade(True)
+        with self.assertRaises(TypeError):
+            classify_grade(False)
 
 
 if __name__ == "__main__":
