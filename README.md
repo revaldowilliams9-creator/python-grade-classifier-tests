@@ -17,7 +17,7 @@ I built this suite to practice defensive programming and test-driven quality ass
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com
+   git clone https://github.com/revaldowilliams9-creator/python-grade-classifier-tests.git
    cd python-grade-classifier-tests
    ```
 
