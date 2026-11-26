@@ -1,0 +1,23 @@
+# Python bytecode & cache (generated when importing grades.py into tests)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Unit test & coverage artifacts
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+nosetests.xml
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE & OS clutter
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
